@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    kishomoe
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<meta name="author" content="Kishomoe">
+<meta name="description" content="Just for fun!">
+<meta name="keywords" content="">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://kishomoe.github.io/styles/main.css" />
+<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+        
+            <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                <!--点击特效-->
+                <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/love.min.js"></script>
+                
+                    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic@latest/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    
+                        <!--CDN样式-->
+                        <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+                        <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+                        
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://kishomoe.github.io">
+                    kishomoe
+                </a>
+            </div>
+            <div id="tp-weather-widget"></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        🏰Home
+                    </a>
+                    
+                    <a class="menu-item" href="/posts">
+                        📝Article
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        🏷️Tags
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        🗃️List
+                    </a>
+                    
+                    <a class="menu-item" href="https://kishomoe.github.io/webstackpage">
+                        🧭Guide
+                    </a>
+                    
+                    <a class="menu-item" href="https://drive.narcos.space">
+                        💾Drive
+                    </a>
+                    
+                    <a class="menu-item" href="https://kishomoe.github.io/post/about">
+                        🤡About
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1613809418579" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://kishomoe.github.io">
+                            kishomoe
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1613809418579" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            🏰Home
+                        </a>
+                        
+                        <a class="menu-item" href="/posts">
+                            📝Article
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            🏷️Tags
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            🗃️List
+                        </a>
+                        
+                        <a class="menu-item" href="https://kishomoe.github.io/webstackpage">
+                            🧭Guide
+                        </a>
+                        
+                        <a class="menu-item" href="https://drive.narcos.space">
+                            💾Drive
+                        </a>
+                        
+                        <a class="menu-item" href="https://kishomoe.github.io/post/about">
+                            🤡About
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+
+
+
+    <script>
+        (function(a, h, g, f, e, d, c, b) {
+            b = function() {
+                d = h.createElement(g);
+                c = h.getElementsByTagName(g)[0];
+                d.src = e;
+                d.charset = "utf-8";
+                d.async = 1;
+                c.parentNode.insertBefore(d, c)
+            };
+            a["SeniverseWeatherWidgetObject"] = f;
+            a[f] || (a[f] = function() {
+                (a[f].q = a[f].q || []).push(arguments)
+            });
+            a[f].l = +new Date();
+            if (a.attachEvent) {
+                a.attachEvent("onload", b)
+            } else {
+                a.addEventListener("load", b, false)
+            }
+        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "slim",
+            location: "WWEFQFPJZ7T8",
+            geolocation: true,
+            language: "auto",
+            unit: "c",
+            theme: "auto",
+            token: "61bcc333-3305-4728-9465-6785274bb0a3",
+            hover: "enabled",
+            container: "tp-weather-widget"
+        })
+    </script>
+    
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                Being Mortal（最好的告别）
+                            </h1>
+                            
+                                <!--en-->
+                                <div class="post-meta en">
+                                    Author:
+                                    <a itemprop="author" rel="author" href="/">
+                                        kishomoe
+                                    </a>
+                                    <span class="post-time">
+                                Date: <a href="#">2020-05-28</a>
+                            </span>
+                                    <span class="post-readtime">Reading Time:<a
+                                    href="#">7.3
+                                    mins</a></span>
+                                    <span class="post-words">words:<a href="#">2167</a></span>
+                                    
+                                        <span class="post-category">
+                                Category:
+                                
+                                <a href="https://kishomoe.github.io/FQ6n3QYDA/">Reading notes</a>
+                                
+                            </span>
+                                        
+                                            Views:
+                                            <span data-hk-page="current"> - </span>
+                                            
+                                </div>
+                                
+                        </header>
+                        
+                            <img class="post-feature-image" src="https://cdn.jsdelivr.net/gh/kishomoe/blogpic/picgo/cover_being.jpg" alt="">
+                          
+                        <div class="post-content">
+                            <blockquote>
+<p>作者:  [美] 阿图·葛文德(Atul Gawande)<br>
+出版社: 浙江人民出版社<br>
+出品方: 湛庐文化<br>
+副标题: 关于衰老与死亡，你必须知道的常识<br>
+原作名: Being Mortal: Medicine and What Matters in the End<br>
+译者: 王一方 主编 / 彭小华<br>
+出版年: 2015-7-31<br>
+页数: 248</p>
+</blockquote>
+<p>最好的告别：关于衰老与死亡，你必须知道的常识<br>
+阿图·葛文德<br>
+41个笔记</p>
+<p>◆ 总序 了不起的葛文德</p>
+<blockquote>
+<blockquote>
+<p>在葛文德看来，医学之美在于思维之花的绽放，从不思（老师教，学生练）到寻思，从浅思到深思，从顺思到反思，从技术之思到哲理之思。阿图·葛文德三本书的书名就充满哲学意味和宿命感：《医生的修炼》+《医生的精进》+《最好的告别》，生命必须穿越复杂性（混乱、麻烦、不确定性、偶然性、多样性），然后追逐纯美的境界，但完美永远无法抵达，生命必然走向涅槃。</p>
+</blockquote>
+</blockquote>
+<p>◆ 自序 一介凡夫 医生也许都想错了</p>
+<blockquote>
+<blockquote>
+<p>一个理智的人在死亡降临的时候还是无法舍弃求生的欲望。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>他冒着经受漫长而可怕的死亡的风险（这正是他最后的结局），追求的不过是一种幻想。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>救治失败并不是医学的无能，而是对生命进程的尊重。</p>
+</blockquote>
+</blockquote>
+<p>◆ 活得久了，问题来了</p>
+<blockquote>
+<blockquote>
+<p>寿命的延长改变了年轻人和老年人之间的关系。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>经济全球化戏剧性地改变了年轻人的生存境遇。国家的繁荣有赖于他们逃离家庭期望的束缚，走自己的路——去任何能够找到工作的地方，做任何喜欢的工作，同任何自己喜欢的人结婚。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>一旦人们拥有告别传统生活方式的足够的资源和机会，他们就会义无反顾地拥抱新生活。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>与其说老年人丧失了传统的地位和控制权，不如说他们分享了新的地位和控制权。现代化并没有降低老年人的地位，而只是降低了家庭的地位。</p>
+</blockquote>
+</blockquote>
+<p>◆ 03 依赖 我们为老做好准备了吗</p>
+<blockquote>
+<blockquote>
+<p>老年是一系列连续不断的丧失。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>老年不是一场战斗，而是一场屠杀。</p>
+</blockquote>
+</blockquote>
+<p>◆ 应运而生的疗养院</p>
+<blockquote>
+<blockquote>
+<p>如果说住院有所不同，那主要是热情、庇护、食物、专心而友善的护理，以及护士在提供这些东西的时候所表现出来的无与伦比的技术。病人是否捡回一条命全靠疾病本身的自然进程。医疗的作用很小，或者根本没有作用。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>疗养院的创办从来不是为了帮助人们面对高龄的依赖问题，而是为了给医院腾床位。</p>
+</blockquote>
+</blockquote>
+<p>◆ 老了但对生活的要求不能仅仅是安全</p>
+<blockquote>
+<blockquote>
+<p>现代社会的基本运转原则是这样的：个人在不同的地方睡觉、玩乐、工作，有不同的同伴，接受不同权威的领导，没有一个总体的理性计划。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>在我们衰老脆弱、不再有能力保护自己的时候，如何使生活存在价值。</p>
+</blockquote>
+</blockquote>
+<p>◆ 04 帮助 适应从家到老人院生活的转变</p>
+<blockquote>
+<blockquote>
+<p>我们想象不出，在我们衰老、脆弱、没人帮助就无法生活的情况下，还可能有什么更好的选择。我们想不出更好的方案。</p>
+</blockquote>
+</blockquote>
+<p>◆ 什么时候可以考虑去老人院看一看</p>
+<blockquote>
+<blockquote>
+<p>父母和子女的角色发生了改变，而路不乐意自己不再是家里的主人。</p>
+</blockquote>
+</blockquote>
+<p>◆ 老人的渴求：一扇能上锁的门</p>
+<blockquote>
+<blockquote>
+<p>家是你的优先顺序中占主导地位的唯一地方。在家里，你可以决定怎么安排时间、怎么分享空间、怎么打理自己的物品。在家之外的地方，你决定不了。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>他们进的是别人的家</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>辅助生活”的目标就是任何人都不必觉得被机构化了。</p>
+</blockquote>
+</blockquote>
+<p>◆ 有没有一个真正像家的“老年之家”</p>
+<blockquote>
+<blockquote>
+<p>人们追求成长和自我实现的人生。成长要求向外开放。我们寻求新的经验、更广泛的社会联系，以及在世界留下足迹的方式。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>研究发现，年龄大了以后，人们交往的人减少，交往对象主要是家人和老朋友。他们把注意力放在存在上，而不是放在做事上；关注当下，而不是未来。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>他们妥协了。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>人们根本没有变得不开心，而是随着年岁增长，快乐程度提高。他们比年轻时更少焦虑、压抑和愤怒。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>如果随着年龄的增长，我们从在意实现、拥有和得到转而懂得欣赏日常生活的愉快和亲密关系，如果我们发现这更具满足感，那么，为什么我们要等这么久才去做？为什么我们要等到老了才去做？生活是一种技能。老年的平静和智慧是在时间历程中实现的。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>重要的是存在于我生活中的其他人。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>我们如何使用时间可能取决于我们觉得自己还有多少时间。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>但随着你的视野收缩，当你开始觉得未来是有限的、不确定的时候，你的关注点开始转向此时此地，放在了日常生活的愉悦和最亲近的人身上。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>“生命的脆弱性凸显出来”时，人们的日常生活目标和动机会彻底改变。</p>
+</blockquote>
+</blockquote>
+<p>◆ 如何平衡善意的保护和自立的尊严</p>
+<blockquote>
+<blockquote>
+<p>让老人做他们力所能及的事从而保持他们的生活能力和独立感。</p>
+</blockquote>
+</blockquote>
+<p>◆ 用两条狗、4只猫、100只鸟发起的革命</p>
+<blockquote>
+<blockquote>
+<p>厌倦感、孤独感和无助感</p>
+</blockquote>
+</blockquote>
+<p>◆ 修复健康，也需滋养心灵</p>
+<blockquote>
+<blockquote>
+<p>我们都追求一个超出我们自身的理由。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>唯一让死亡并非毫无意义的途径，就是把自己视为某种更大的事物的一部分：家庭、社区、社会。</p>
+</blockquote>
+</blockquote>
+<p>◆ 生活中最好的事，就是能自己上厕所</p>
+<blockquote>
+<blockquote>
+<p>生活中最好的事情就是你能自己去卫生间。</p>
+</blockquote>
+</blockquote>
+<p>◆ 战胜老年生活的无聊与无助</p>
+<blockquote>
+<blockquote>
+<p>当人意识到生命的有限，他们就不再要求太多。他们不再寻求更多的财富，不再寻求更多的权力。他们只要求，在可能的情况下，被允许保留塑造自己在这个世界的生命故事的权利——根据自己的优先顺序作出选择，维持与他人的联系。</p>
+</blockquote>
+</blockquote>
+<p>◆ 大限来临该做什么</p>
+<blockquote>
+<blockquote>
+<p>避免痛苦、加强与家人和朋友的联系、意识清醒、不成为他人的负担，以及实现其生命具有完整性</p>
+</blockquote>
+</blockquote>
+<p>◆ 尽全力救治也许不是最正确的做法</p>
+<blockquote>
+<blockquote>
+<p>只有不去努力活得更长，才能够活得更长。</p>
+</blockquote>
+</blockquote>
+<p>◆ 临终讨论专家的话术</p>
+<blockquote>
+<blockquote>
+<p>接受个人的必死性、清楚了解医学的局限性和可能性，这是一个过程，而不是一种顿悟。</p>
+</blockquote>
+</blockquote>
+<p>◆ 08 勇气 最好的告别</p>
+<blockquote>
+<blockquote>
+<p>勇气是面对知道需要害怕什么或者希望什么时体现的力量，而智慧是审慎的力量。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>第一种勇气是面对人终有一死的事实的勇气——寻思真正应该害怕什么、可以希望什么的勇气。</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<blockquote>
+<p>但是更令人却步的是第二种勇气——依照我们发现的事实采取行动的勇气。</p>
+</blockquote>
+</blockquote>
+<p>◆ 点评</p>
+<p>点评:★★★★★</p>
+<hr>
+<ul>
+<li>从医学的角度讲述了在面对死亡时我们能做些什么，考虑终了时的心理，给出的大多是是医疗层面的方法，例如“善终服务”“辅助生活”“生前预嘱”。</li>
+<li>“人终会死亡”是一个必然事件，然鹅“如何面对死亡”作者给出的观点是：不要个人主义，要从更大的层面去思考死亡是有意义的。【这个观点没能说服我( •̀ ω •́ )y】</li>
+<li>“面对死亡的勇气”这个方面讨论的比较少，可能作者是从医生的角度出发吧，有空准备找一找有没有从心理角度出发的书籍。φ(*￣0￣)</li>
+<li>为什么会看这本书：自从上上一辈都不在了以后，妈妈最常说的话就是“现在真的是老了”，碰巧看到了这本书。</li>
+</ul>
+<hr>
+<p>油管上有一个作者关于本书讨论的视频👇</p>
+<div class="aspect-ratio">
+<iframe src="https://www.youtube.com/embed/mviU9OeufA0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+                        </div>
+                        
+                            <div class="post-toc">
+                                
+                            </div>
+                            
+                                
+                                    
+                                        <!--en-->
+                                        <section class="post-copyright en">
+                                            <p class="copyright-item">
+                                                <span>Author:</span>
+                                                <span>kishomoe</span>
+                                            </p>
+
+                                            <p class="copyright-item">
+                                                <span>Permalink:</span>
+                                                <span><a href="https://kishomoe.github.io/post/011-being_mortal/">https://kishomoe.github.io/post/011-being_mortal/</a></span>
+                                            </p>
+
+                                            <p class="copyright-item">
+                                                <span>License:</span>
+                                                <span>MIT License</span>
+                                            </p>
+                                        </section>
+                                        
+                                                
+                                                    
+                                                        <!-- Share-->
+                                                        <span style="margin-right:15px">
+                                                    <i class="post-share"></i>
+                                                    <span>Share:</span>
+                                                        <a title="QR Code" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://kishomoe.github.io/post/011-being_mortal/"><i class="fa fa-qrcode"></i></a>
+                                                        <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://kishomoe.github.io/post/011-being_mortal/&sharesource=qzone&title=Being Mortal（最好的告别）&pics=https://kishomoe.github.io/images/avatar.png?v=1613809418579&summary="><i class="fa fa-qq"></i></a>
+                                                        <a title="Weibo" target="_blank" href="https://service.weibo.com/share/share.php?url=https://kishomoe.github.io/post/011-being_mortal/&sharesource=weibo&title=Being Mortal（最好的告别） + " - " + &pic="https://kishomoe.github.io/images/avatar.png?v=1613809418579 "><i class="fa fa-weibo "></i></a>
+                                                        
+                                                                </span>
+                                                                <!--en-->
+                                                                <section class="post-tags en ">
+                                                                    <div>
+                                                                        <span>Tag(s):</span>
+                                                                        <span class="tag ">
+                        
+                        
+                        <a href="https://kishomoe.github.io/FQ6n3QYDA/">#
+                                                Reading notes
+                                                    </a>
+                                                    
+                                                        
+                                                            </span>
+                                                                    </div>
+                                                                    <div>
+                                                                        <a href="javascript:window.history.back();">back</a>
+                                                                        <span>&dot;</span>
+                                                                        <a href="#">home</a>
+                                                                    </div>
+                                                                </section>
+                                                                
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                        <a class="prev" rel="prev" href="https://kishomoe.github.io/post/012-inductance/">
+                                                                                            dq-axis inductance calculation
+                                                                                        </a>
+                                                                                        
+                                                                                            
+                                                                                                <a class="next" rel="next" href="https://kishomoe.github.io/post/010-gridea/">
+                                                                                                    Gridea语法规则
+                                                                                                </a>
+                                                                                                
+                                                                                </section>
+                    </article>
+                </div>
+                
+                    
+                        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container" style="width: 100%;max-width: 780px;margin: auto;"></div>
+
+<script>
+    var gitalk = new Gitalk({
+        clientID: '3149554b1380ed05d56a',
+        clientSecret: 'd2159ba5f80f57a6ff361d35501fb9edf571691c',
+        repo: 'kishomoe.github.io',
+        owner: 'kishomoe',
+        admin: ['kishomoe'],
+        id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+        distractionFreeMode: false // Facebook-like distraction free mode
+    })
+
+    gitalk.render('gitalk-container')
+</script>
+                            
+                                        
+                                            
+            </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="player"></div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                        <b>Truth Forever.</b>
+<br>
+It has been running for <script type="text/javascript">
+      var urodz = new Date("03/16/2020");
+      var now = new Date();
+      var ile = now.getTime() - urodz.getTime();
+      var dni = Math.floor(ile / (1000 * 60 * 60 * 24));
+      document.write(+dni)
+</script> days.💖
+<br>
+                            
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        kishomoe &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="https://gridea.dev/" target="_blank">
+                                                Gridea
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.6
+                </div>
+                
+                    <script>
+                        var port = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
+                    </script>
+        </footer>
+        
+            <script src='https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
+            
+                <script>
+                    
+
+                    function LoadPlayer() {
+                        var musicList = [];
+                        
+                        musicList.push({
+                            name: 'MELANCHOLY ',
+                            url: 'http://music.163.com/song/media/outer/url?id=1297742167.mp3',
+                            artist: 'White Cherry',
+                            cover: 'https://cdn.jsdelivr.net/gh/kishomoe/blogpic@master/picgo/MELANCHOLY.png',
+                        });
+                        
+                        console.log(" MusicList: " + musicList);
+                        
+                        const ap = new APlayer({
+                            container: document.getElementById('player'),
+                            fixed: true,
+                            audio: musicList
+                        });
+                        
+                    }
+                    LoadPlayer();
+                    
+                    
+                    loadlive2d();
+                    
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1613809418579);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>

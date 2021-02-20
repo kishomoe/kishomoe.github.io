@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    kishomoe
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<meta name="author" content="Kishomoe">
+<meta name="description" content="Just for fun!">
+<meta name="keywords" content="">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://kishomoe.github.io/styles/main.css" />
+<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+        
+            <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                <!--点击特效-->
+                <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/love.min.js"></script>
+                
+                    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic@latest/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    
+                        <!--CDN样式-->
+                        <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+                        <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+                        
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://kishomoe.github.io">
+                    kishomoe
+                </a>
+            </div>
+            <div id="tp-weather-widget"></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        🏰Home
+                    </a>
+                    
+                    <a class="menu-item" href="/posts">
+                        📝Article
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        🏷️Tags
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        🗃️List
+                    </a>
+                    
+                    <a class="menu-item" href="https://kishomoe.github.io/webstackpage">
+                        🧭Guide
+                    </a>
+                    
+                    <a class="menu-item" href="https://drive.narcos.space">
+                        💾Drive
+                    </a>
+                    
+                    <a class="menu-item" href="https://kishomoe.github.io/post/about">
+                        🤡About
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1613809418579" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://kishomoe.github.io">
+                            kishomoe
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1613809418579" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            🏰Home
+                        </a>
+                        
+                        <a class="menu-item" href="/posts">
+                            📝Article
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            🏷️Tags
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            🗃️List
+                        </a>
+                        
+                        <a class="menu-item" href="https://kishomoe.github.io/webstackpage">
+                            🧭Guide
+                        </a>
+                        
+                        <a class="menu-item" href="https://drive.narcos.space">
+                            💾Drive
+                        </a>
+                        
+                        <a class="menu-item" href="https://kishomoe.github.io/post/about">
+                            🤡About
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+
+
+
+    <script>
+        (function(a, h, g, f, e, d, c, b) {
+            b = function() {
+                d = h.createElement(g);
+                c = h.getElementsByTagName(g)[0];
+                d.src = e;
+                d.charset = "utf-8";
+                d.async = 1;
+                c.parentNode.insertBefore(d, c)
+            };
+            a["SeniverseWeatherWidgetObject"] = f;
+            a[f] || (a[f] = function() {
+                (a[f].q = a[f].q || []).push(arguments)
+            });
+            a[f].l = +new Date();
+            if (a.attachEvent) {
+                a.attachEvent("onload", b)
+            } else {
+                a.addEventListener("load", b, false)
+            }
+        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "slim",
+            location: "WWEFQFPJZ7T8",
+            geolocation: true,
+            language: "auto",
+            unit: "c",
+            theme: "auto",
+            token: "61bcc333-3305-4728-9465-6785274bb0a3",
+            hover: "enabled",
+            container: "tp-weather-widget"
+        })
+    </script>
+    
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                一些不错的软件
+                            </h1>
+                            
+                                <!--en-->
+                                <div class="post-meta en">
+                                    Author:
+                                    <a itemprop="author" rel="author" href="/">
+                                        kishomoe
+                                    </a>
+                                    <span class="post-time">
+                                Date: <a href="#">2020-04-09</a>
+                            </span>
+                                    <span class="post-readtime">Reading Time:<a
+                                    href="#">1.2
+                                    mins</a></span>
+                                    <span class="post-words">words:<a href="#">293</a></span>
+                                    
+                                        <span class="post-category">
+                                Category:
+                                
+                                <a href="https://kishomoe.github.io/MvPJCmwNT/">Software</a>
+                                
+                            </span>
+                                        
+                                            Views:
+                                            <span data-hk-page="current"> - </span>
+                                            
+                                </div>
+                                
+                        </header>
+                        
+                        <div class="post-content">
+                            <blockquote>
+<p>记录一些方便实用的软件📯  开源免费的就直接贴官网地址了，直接下载就可用；需要破解的软件贴出了Crack资源链接。【仅用于学习交流】❤️</p>
+</blockquote>
+<h2 id="工程软件">工程软件</h2>
+<h3 id="autocad">AutoCAD</h3>
+<p><a href="https://share.weiyun.com/5BoggzD">R2021</a></p>
+<h3 id="soildworks">Soildworks</h3>
+<p><a href="https://pan.baidu.com/s/1AzCHp5rltlFfTO3yxlxPgQ">R2017</a>(提取码：pmuv)</p>
+<h3 id="ansys">ANSYS</h3>
+<p><a href="https://pan.baidu.com/s/1RplRz6CPMVw8F1unw-a1EA">R19</a>(提取码：4dy6)</p>
+<h3 id="jmag">JMAG</h3>
+<p><a href="">Crack</a></p>
+<h3 id="matlab">Matlab</h3>
+<p><a href="">Crack</a></p>
+<h3 id="speed">Speed</h3>
+<p><a href="">Crack</a></p>
+<h3 id="comsol-multiphysics">Comsol Multiphysics</h3>
+<p><a href="">Crack</a></p>
+<h3 id="mathcad">Mathcad</h3>
+<p><a href="">Crack</a></p>
+<hr>
+<h2 id="办公学习软件">办公学习软件</h2>
+<h3 id="adobe-acrobat">Adobe Acrobat</h3>
+<p><a href="">Crack</a></p>
+<h3 id="pdfelement-pro">PDFelement Pro</h3>
+<p><a href="">Crack</a></p>
+<h3 id="思维导图-x-mind">思维导图 X mind</h3>
+<p><a href="">Crack</a></p>
+<h3 id="windows-激活">windows 激活</h3>
+<p><a href="">Crack</a></p>
+<h3 id="冰点文库">冰点文库</h3>
+<p><a href="">Crack</a></p>
+<h3 id="bandizip">Bandizip</h3>
+<p>压缩包管理器→<a href="https://www.bandisoft.com/">官网下载</a></p>
+<h3 id="mathtype">MathType</h3>
+<p><a href="">Crack</a></p>
+<h3 id="欧路词典">欧路词典</h3>
+<p><a href="https://www.eudic.net/v4/en/app/eudic">官网下载</a></p>
+<h3 id="tex-live">Tex Live</h3>
+<p><a href="https://www.tug.org/texlive/">官网下载</a></p>
+<h3 id="vs-code">VS Code</h3>
+<p>代码编辑器→<a href="https://code.visualstudio.com/">官网下载</a></p>
+<h3 id="typora">Typora</h3>
+<p>Markdown编辑器→<a href="https://typora.io/">官网下载</a></p>
+<h3 id="vmware">VMware</h3>
+<p>虚拟机→<a href="https://www.vmware.com/">官网下载</a></p>
+<hr>
+<h2 id="娱乐生活软件">娱乐生活软件</h2>
+<h3 id="idm">IDM</h3>
+<p><a href="">Crack</a></p>
+<h3 id="pandownload">Pandownload</h3>
+<p>百度网盘资源下载器→<a href="https://www.pandownload.com/">官网下载</a></p>
+<h3 id="imazing">iMazing</h3>
+<p>ios--mac/pc管理软件→<a href="https://imazing.com/zh">官网下载</a></p>
+<h3 id="adobe">Adobe</h3>
+<p><a href="">Crack</a></p>
+<h3 id="ultraiso">ultraiso</h3>
+<p><a href="">Crack</a></p>
+<h3 id="apower-mirror">Apower Mirror</h3>
+<p><a href="">Crack</a></p>
+<h3 id="morphvox-pro">MorphVOX Pro</h3>
+<p><a href="">Crack</a></p>
+<h3 id="airserver">AirServer</h3>
+<p><a href="">Crack</a></p>
+<h3 id="potplayer">PotPlayer</h3>
+<p>播放器→<a href="https://potplayer.daum.net/?lang=zh_CN">官网下载</a></p>
+<h3 id="everything">Everything</h3>
+<p>Windows桌面搜索引擎→<a href="https://www.voidtools.com/zh-cn/">官网下载</a></p>
+<h3 id="mp3tag">Mp3tag</h3>
+<p>音乐文件元数据编辑→<a href="https://www.mp3tag.de/en/download.html">官网下载</a></p>
+<h3 id="gridea">Gridea</h3>
+<p>静态博客写作客户端→<a href="https://gridea.dev/">官网下载</a></p>
+<h3 id="开源字体">开源字体</h3>
+<p><a href="https://github.com/adobe-fonts/source-han-sans/tree/release">思源黑体</a>	<a href="https://github.com/adobe-fonts/source-han-serif/tree/release">思源宋体</a></p>
+<h3 id="subtitleedit">SubtitleEdit</h3>
+<p>字幕编辑器→<a href="https://www.nikse.dk/">官网</a>	<a href="https://github.com/SubtitleEdit/subtitleedit/releases">下载</a></p>
+<hr>
+<h2 id="404软件">404软件</h2>
+<h3 id="shadowsocks">Shadowsocks</h3>
+<h3 id="v2ray">V2ray</h3>
+<h3 id="clash">Clash</h3>
+<h3 id="netch">Netch</h3>
+<h3 id="sstap">SSTap</h3>
+<hr>
+<p>To be continued.🍅</p>
+
+                        </div>
+                        
+                            <div class="post-toc">
+                                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E5%B7%A5%E7%A8%8B%E8%BD%AF%E4%BB%B6">工程软件</a>
+<ul>
+<li><a href="#autocad">AutoCAD</a></li>
+<li><a href="#soildworks">Soildworks</a></li>
+<li><a href="#ansys">ANSYS</a></li>
+<li><a href="#jmag">JMAG</a></li>
+<li><a href="#matlab">Matlab</a></li>
+<li><a href="#speed">Speed</a></li>
+<li><a href="#comsol-multiphysics">Comsol Multiphysics</a></li>
+<li><a href="#mathcad">Mathcad</a></li>
+</ul>
+</li>
+<li><a href="#%E5%8A%9E%E5%85%AC%E5%AD%A6%E4%B9%A0%E8%BD%AF%E4%BB%B6">办公学习软件</a>
+<ul>
+<li><a href="#adobe-acrobat">Adobe Acrobat</a></li>
+<li><a href="#pdfelement-pro">PDFelement Pro</a></li>
+<li><a href="#%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE-x-mind">思维导图 X mind</a></li>
+<li><a href="#windows-%E6%BF%80%E6%B4%BB">windows 激活</a></li>
+<li><a href="#%E5%86%B0%E7%82%B9%E6%96%87%E5%BA%93">冰点文库</a></li>
+<li><a href="#bandizip">Bandizip</a></li>
+<li><a href="#mathtype">MathType</a></li>
+<li><a href="#%E6%AC%A7%E8%B7%AF%E8%AF%8D%E5%85%B8">欧路词典</a></li>
+<li><a href="#tex-live">Tex Live</a></li>
+<li><a href="#vs-code">VS Code</a></li>
+<li><a href="#typora">Typora</a></li>
+<li><a href="#vmware">VMware</a></li>
+</ul>
+</li>
+<li><a href="#%E5%A8%B1%E4%B9%90%E7%94%9F%E6%B4%BB%E8%BD%AF%E4%BB%B6">娱乐生活软件</a>
+<ul>
+<li><a href="#idm">IDM</a></li>
+<li><a href="#pandownload">Pandownload</a></li>
+<li><a href="#imazing">iMazing</a></li>
+<li><a href="#adobe">Adobe</a></li>
+<li><a href="#ultraiso">ultraiso</a></li>
+<li><a href="#apower-mirror">Apower Mirror</a></li>
+<li><a href="#morphvox-pro">MorphVOX Pro</a></li>
+<li><a href="#airserver">AirServer</a></li>
+<li><a href="#potplayer">PotPlayer</a></li>
+<li><a href="#everything">Everything</a></li>
+<li><a href="#mp3tag">Mp3tag</a></li>
+<li><a href="#gridea">Gridea</a></li>
+<li><a href="#%E5%BC%80%E6%BA%90%E5%AD%97%E4%BD%93">开源字体</a></li>
+<li><a href="#subtitleedit">SubtitleEdit</a></li>
+</ul>
+</li>
+<li><a href="#404%E8%BD%AF%E4%BB%B6">404软件</a>
+<ul>
+<li><a href="#shadowsocks">Shadowsocks</a></li>
+<li><a href="#v2ray">V2ray</a></li>
+<li><a href="#clash">Clash</a></li>
+<li><a href="#netch">Netch</a></li>
+<li><a href="#sstap">SSTap</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+                            </div>
+                            
+                                
+                                    
+                                        <!--en-->
+                                        <section class="post-copyright en">
+                                            <p class="copyright-item">
+                                                <span>Author:</span>
+                                                <span>kishomoe</span>
+                                            </p>
+
+                                            <p class="copyright-item">
+                                                <span>Permalink:</span>
+                                                <span><a href="https://kishomoe.github.io/post/004-software/">https://kishomoe.github.io/post/004-software/</a></span>
+                                            </p>
+
+                                            <p class="copyright-item">
+                                                <span>License:</span>
+                                                <span>MIT License</span>
+                                            </p>
+                                        </section>
+                                        
+                                                
+                                                    
+                                                        <!-- Share-->
+                                                        <span style="margin-right:15px">
+                                                    <i class="post-share"></i>
+                                                    <span>Share:</span>
+                                                        <a title="QR Code" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://kishomoe.github.io/post/004-software/"><i class="fa fa-qrcode"></i></a>
+                                                        <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://kishomoe.github.io/post/004-software/&sharesource=qzone&title=一些不错的软件&pics=https://kishomoe.github.io/images/avatar.png?v=1613809418579&summary="><i class="fa fa-qq"></i></a>
+                                                        <a title="Weibo" target="_blank" href="https://service.weibo.com/share/share.php?url=https://kishomoe.github.io/post/004-software/&sharesource=weibo&title=一些不错的软件 + " - " + &pic="https://kishomoe.github.io/images/avatar.png?v=1613809418579 "><i class="fa fa-weibo "></i></a>
+                                                        
+                                                                </span>
+                                                                <!--en-->
+                                                                <section class="post-tags en ">
+                                                                    <div>
+                                                                        <span>Tag(s):</span>
+                                                                        <span class="tag ">
+                        
+                        
+                        <a href="https://kishomoe.github.io/MvPJCmwNT/">#
+                                                Software
+                                                    </a>
+                                                    
+                                                        
+                                                            </span>
+                                                                    </div>
+                                                                    <div>
+                                                                        <a href="javascript:window.history.back();">back</a>
+                                                                        <span>&dot;</span>
+                                                                        <a href="#">home</a>
+                                                                    </div>
+                                                                </section>
+                                                                
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                        <a class="prev" rel="prev" href="https://kishomoe.github.io/post/005-doublesided/">
+                                                                                            Study on series and parallel windings of double-sided linear motor
+                                                                                        </a>
+                                                                                        
+                                                                                            
+                                                                                                <a class="next" rel="next" href="https://kishomoe.github.io/post/003-velocity/">
+                                                                                                    About velocity
+                                                                                                </a>
+                                                                                                
+                                                                                </section>
+                    </article>
+                </div>
+                
+                    
+                        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container" style="width: 100%;max-width: 780px;margin: auto;"></div>
+
+<script>
+    var gitalk = new Gitalk({
+        clientID: '3149554b1380ed05d56a',
+        clientSecret: 'd2159ba5f80f57a6ff361d35501fb9edf571691c',
+        repo: 'kishomoe.github.io',
+        owner: 'kishomoe',
+        admin: ['kishomoe'],
+        id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+        distractionFreeMode: false // Facebook-like distraction free mode
+    })
+
+    gitalk.render('gitalk-container')
+</script>
+                            
+                                        
+                                            
+            </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="player"></div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                        <b>Truth Forever.</b>
+<br>
+It has been running for <script type="text/javascript">
+      var urodz = new Date("03/16/2020");
+      var now = new Date();
+      var ile = now.getTime() - urodz.getTime();
+      var dni = Math.floor(ile / (1000 * 60 * 60 * 24));
+      document.write(+dni)
+</script> days.💖
+<br>
+                            
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        kishomoe &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="https://gridea.dev/" target="_blank">
+                                                Gridea
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.6
+                </div>
+                
+                    <script>
+                        var port = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
+                    </script>
+        </footer>
+        
+            <script src='https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
+            
+                <script>
+                    
+
+                    function LoadPlayer() {
+                        var musicList = [];
+                        
+                        musicList.push({
+                            name: 'MELANCHOLY ',
+                            url: 'http://music.163.com/song/media/outer/url?id=1297742167.mp3',
+                            artist: 'White Cherry',
+                            cover: 'https://cdn.jsdelivr.net/gh/kishomoe/blogpic@master/picgo/MELANCHOLY.png',
+                        });
+                        
+                        console.log(" MusicList: " + musicList);
+                        
+                        const ap = new APlayer({
+                            container: document.getElementById('player'),
+                            fixed: true,
+                            audio: musicList
+                        });
+                        
+                    }
+                    LoadPlayer();
+                    
+                    
+                    loadlive2d();
+                    
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1613809418579);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>

@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>
+    kishomoe
+</title>
+<!--[if lt IE 9]><script src="//cdn.bootcss.com/html5shiv/r29/html5.js"></script><![endif]-->
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+<meta name="author" content="Kishomoe">
+<meta name="description" content="Just for fun!">
+<meta name="keywords" content="">
+<script async src="//instant.page/3.0.0" type="module" defer integrity="sha384-OeDn4XE77tdHo8pGtE1apMPmAipjoxUQ++eeJa6EtJCfHlvijigWiJpD7VDPWXV1"></script>
+<link rel="stylesheet" href="https://kishomoe.github.io/styles/main.css" />
+<link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://apps.bdimg.com/libs/jquery/1.7.1/jquery.min.js"></script>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/css/style.min.css" />
+        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/tocbot.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/script.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic/assets/media/script/icon.min.js"></script>
+        
+            <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/Card/prism.min.js"></script>
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/css/Card/prism.min.css" />
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
+            <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
+            
+                <!--点击特效-->
+                <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/love.min.js"></script>
+                
+                    <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic@latest/assets/media/script/APlayer.min.js"></script>
+                    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
+                    
+                        <!--CDN样式-->
+                        <script src="https://cdn.jsdelivr.net/gh/ITJoker233/ITJoker233.github.io@latest/CDN/js/hit-kounter-lc-0.3.0.js"></script>
+                        <script src="https://cdn1.lncld.net/static/js/av-min-1.5.0.js"></script>
+                        
+                            <script>
+                                (function() {
+                                    var bp = document.createElement('script');
+                                    var curProtocol = window.location.protocol.split(':')[0];
+                                    if (curProtocol === 'https') {
+                                        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+                                    } else {
+                                        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+                                    }
+                                    var s = document.getElementsByTagName("script")[0];
+                                    s.parentNode.insertBefore(bp, s);
+                                })();
+                            </script>
+                            
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header header-logo">
+                <a href="https://kishomoe.github.io">
+                    kishomoe
+                </a>
+            </div>
+            <div id="tp-weather-widget"></div>
+            <div class="menu navbar-right">
+                
+                    <a class="menu-item" href="/">
+                        🏰Home
+                    </a>
+                    
+                    <a class="menu-item" href="/posts">
+                        📝Article
+                    </a>
+                    
+                    <a class="menu-item" href="/tags">
+                        🏷️Tags
+                    </a>
+                    
+                    <a class="menu-item" href="/archives">
+                        🗃️List
+                    </a>
+                    
+                    <a class="menu-item" href="https://kishomoe.github.io/webstackpage">
+                        🧭Guide
+                    </a>
+                    
+                    <a class="menu-item" href="https://drive.narcos.space">
+                        💾Drive
+                    </a>
+                    
+                    <a class="menu-item" href="https://kishomoe.github.io/post/about">
+                        🤡About
+                    </a>
+                    
+                        <input id="switch_default" type="checkbox" class="switch_default">
+                        <label for="switch_default" class="toggleBtn"></label>
+            </div>
+            <form id="gridea-search-form" data-update="1613809418579" action="/search/index.html">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+            </form>
+        </div>
+    </nav>
+
+    
+        <nav class="navbar-mobile" id="nav-mobile">
+            <div class="container">
+                <div class="navbar-header">
+                    <div>
+                        <a href="https://kishomoe.github.io">
+                            kishomoe
+                        </a>
+                        <!--en-->
+                        <a id="mobile-toggle-theme-en" class="a en">&nbsp;Dark</a>
+                        <!--zh-->
+                        <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
+                    </div>
+                    <form id="gridea-search-form" data-update="1613809418579" action="/search/index.html">
+                        <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
+                    </form>
+                    <!--en-->
+                    <div class="menu-toggle" id="menu-toggle-en" onclick="mobileBtn()">&#9776; Menu</div>
+                    <!--zh-->
+                    <div class="menu-toggle" id="menu-toggle-zh" onclick="mobileBtn()">&#9776; &#x83DC;&#x5355;</div>
+
+                </div>
+                <div class="menu" id="mobile-menu">
+                    
+                        <a class="menu-item" href="/">
+                            🏰Home
+                        </a>
+                        
+                        <a class="menu-item" href="/posts">
+                            📝Article
+                        </a>
+                        
+                        <a class="menu-item" href="/tags">
+                            🏷️Tags
+                        </a>
+                        
+                        <a class="menu-item" href="/archives">
+                            🗃️List
+                        </a>
+                        
+                        <a class="menu-item" href="https://kishomoe.github.io/webstackpage">
+                            🧭Guide
+                        </a>
+                        
+                        <a class="menu-item" href="https://drive.narcos.space">
+                            💾Drive
+                        </a>
+                        
+                        <a class="menu-item" href="https://kishomoe.github.io/post/about">
+                            🤡About
+                        </a>
+                        
+                </div>
+            </div>
+        </nav>
+</header>
+<script>
+    var mobileBtn = function f() {
+        var toggleMenu = document.getElementById("menu-toggle-en");
+        var toggleMenu_zh = document.getElementById("menu-toggle-zh");
+
+        var mobileMenu = document.getElementById("mobile-menu");
+        if (toggleMenu.display != "none") {
+            if (toggleMenu.classList.contains("active")) {
+                toggleMenu.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        } else if (toggleMenu_zh.display != "none") {
+            if (toggleMenu_zh.classList.contains("active")) {
+                toggleMenu_zh.classList.remove("active")
+                mobileMenu.classList.remove("active")
+            } else {
+                toggleMenu_zh.classList.add("active")
+                mobileMenu.classList.add("active")
+            }
+        }
+
+    }
+</script>
+
+
+
+    <script>
+        (function(a, h, g, f, e, d, c, b) {
+            b = function() {
+                d = h.createElement(g);
+                c = h.getElementsByTagName(g)[0];
+                d.src = e;
+                d.charset = "utf-8";
+                d.async = 1;
+                c.parentNode.insertBefore(d, c)
+            };
+            a["SeniverseWeatherWidgetObject"] = f;
+            a[f] || (a[f] = function() {
+                (a[f].q = a[f].q || []).push(arguments)
+            });
+            a[f].l = +new Date();
+            if (a.attachEvent) {
+                a.attachEvent("onload", b)
+            } else {
+                a.addEventListener("load", b, false)
+            }
+        }(window, document, "script", "SeniverseWeatherWidget", "//cdn.sencdn.com/widget2/static/js/bundle.js?t=" + parseInt((new Date().getTime() / 100000000).toString(), 10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "slim",
+            location: "WWEFQFPJZ7T8",
+            geolocation: true,
+            language: "auto",
+            unit: "c",
+            theme: "auto",
+            token: "61bcc333-3305-4728-9465-6785274bb0a3",
+            hover: "enabled",
+            container: "tp-weather-widget"
+        })
+    </script>
+    
+            <div class="main">
+                <div class="container">
+                    <article class="post-wrap">
+                        <header class="post-header">
+                            <h1 class="post-title">
+                                Gridea语法规则
+                            </h1>
+                            
+                                <!--en-->
+                                <div class="post-meta en">
+                                    Author:
+                                    <a itemprop="author" rel="author" href="/">
+                                        kishomoe
+                                    </a>
+                                    <span class="post-time">
+                                Date: <a href="#">2020-05-07</a>
+                            </span>
+                                    <span class="post-readtime">Reading Time:<a
+                                    href="#">3.0
+                                    mins</a></span>
+                                    <span class="post-words">words:<a href="#">677</a></span>
+                                    
+                                            Views:
+                                            <span data-hk-page="current"> - </span>
+                                            
+                                </div>
+                                
+                        </header>
+                        
+                            <img class="post-feature-image" src="https://cdn.jsdelivr.net/gh/kishomoe/blogpic@master/pic/gridea/0.jpg" alt="">
+                          
+                        <div class="post-content">
+                            <blockquote>
+<p>必须要总结一下了，不然每次百度太累了😤</p>
+</blockquote>
+<h1 id="gridea语法规则">Gridea语法规则</h1>
+<h2 id="markdown语法">Markdown语法</h2>
+<h3 id="标题">标题</h3>
+<pre><code># 一级标题
+## 二级标题
+### 三级标题
+#### 四级标题
+##### 五级标题
+###### 六级标题
+</code></pre>
+<h3 id="字体">字体</h3>
+<pre><code>**加粗**
+*斜体*
+~~删除线~~
+</code></pre>
+<h3 id="引用">引用</h3>
+<pre><code>&gt;引用
+&gt;&gt;嵌套引用
+</code></pre>
+<h3 id="分割线">分割线</h3>
+<pre><code>---三个及三个以上
+***三个及三个以上
+</code></pre>
+<h3 id="图片">图片</h3>
+<pre><code>![](https://cdn.jsdelivr.net/gh/kishomoe/blogpic@master/pic/文件夹/文件名.jpg)
+&lt;img src=&quot;https://cdn.jsdelivr.net/gh/kishomoe/blogpic@master/pic/fourier/1.jpg&quot; style=&quot;zoom:33%;&quot; /&gt;
+</code></pre>
+<h3 id="超链接">超链接</h3>
+<pre><code>[链接名](url)
+&lt;a href=&quot;超链接地址&quot; target=&quot;_blank&quot;&gt;超链接名&lt;/a&gt;
+</code></pre>
+<h3 id="列表">列表</h3>
+<pre><code>- 列表内容（无序）
++ 列表内容（无序）
+* 列表内容（无序）
+1. 列表内容（有序）
+2. 列表内容（有序）
+3. 列表内容（有序）
+</code></pre>
+<h3 id="表格">表格</h3>
+<pre><code>表头|表头|表头
+---|:--:|---:
+内容|内容|内容
+内容|内容|内容
+
+第二行分割表头和内容。
+- 有一个就行，为了对齐，多加了几个
+文字默认居左
+-两边加：表示文字居中
+-右边加：表示文字居右
+注：原生的语法两边都要用 | 包起来。此处省略
+</code></pre>
+<h3 id="代码">代码</h3>
+<pre><code>    `代码内容` （单行代码）
+(```)
+  代码...
+  代码...
+  代码...
+(```)
+（代码块，实际使用无括号）
+</code></pre>
+<h3 id="流程图">流程图</h3>
+<pre><code>暂时用不着，缺
+</code></pre>
+<h3 id="字体-字号和颜色">字体、字号和颜色</h3>
+<pre><code>&lt;font color=&quot;green&quot; size=7 face=&quot;宋体&quot;&gt;**文字**&lt;/font&gt;
+size:1-7（浏览器默认3）
+</code></pre>
+<h3 id="背景色">背景色</h3>
+<pre><code>&lt;table&gt;&lt;tr&gt;&lt;td bgcolor=red&gt;池松&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+</code></pre>
+<h3 id="注脚">注脚</h3>
+<pre><code>内容[^1]
+
+（在最后）[^1]:注脚
+</code></pre>
+<h2 id="latex数学公式">Latex数学公式</h2>
+<pre><code>$行内公式$
+$$
+行间公式
+$$
+</code></pre>
+<h3 id="数学符号表">数学符号表</h3>
+<p>（不想打字了，偷懒用图片代替）</p>
+<figure data-type="image" tabindex="1"><img src="https://cdn.jsdelivr.net/gh/kishomoe/blogpic@master/pic/gridea/1.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://cdn.jsdelivr.net/gh/kishomoe/blogpic@master/pic/gridea/2.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://cdn.jsdelivr.net/gh/kishomoe/blogpic@master/pic/gridea/3.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="https://cdn.jsdelivr.net/gh/kishomoe/blogpic@master/pic/gridea/4.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://cdn.jsdelivr.net/gh/kishomoe/blogpic@master/pic/gridea/5.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="https://cdn.jsdelivr.net/gh/kishomoe/blogpic@master/pic/gridea/6.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://cdn.jsdelivr.net/gh/kishomoe/blogpic@master/pic/gridea/7.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://cdn.jsdelivr.net/gh/kishomoe/blogpic@master/pic/gridea/8.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="9"><img src="https://cdn.jsdelivr.net/gh/kishomoe/blogpic@master/pic/gridea/9.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="10"><img src="https://cdn.jsdelivr.net/gh/kishomoe/blogpic@master/pic/gridea/10.jpg" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="11"><img src="https://cdn.jsdelivr.net/gh/kishomoe/blogpic@master/pic/gridea/11.jpg" alt="" loading="lazy"></figure>
+<h3 id="指数和下标">指数和下标</h3>
+<pre><code>^和_
+</code></pre>
+<h3 id="分式和根式">分式和根式</h3>
+<pre><code>\frac{分子}{分母}和\sqrt[几次]{}
+</code></pre>
+<h3 id="积分和求和">积分和求和</h3>
+<pre><code>\int_{下}{上}和\sum_{下}{上}
+</code></pre>
+<h3 id="大括号">大括号</h3>
+<p>(太复杂，后续再补充)</p>
+<pre><code>方法一：
+
+f(x)=\left\{
+\begin{aligned}
+x &amp; = &amp; \cos(t) \\
+y &amp; = &amp; \sin(t) \\
+z &amp; = &amp; \frac xy
+\end{aligned}
+\right.
+
+方法二：
+F^{HLLC}=\left\{
+\begin{array}{rcl}
+F_L       &amp;      &amp; {0      &lt;      S_L}\\
+F^*_L     &amp;      &amp; {S_L \leq 0 &lt; S_M}\\
+F^*_R     &amp;      &amp; {S_M \leq 0 &lt; S_R}\\
+F_R       &amp;      &amp; {S_R \leq 0}
+\end{array} \right. 
+
+方法三:
+f(x)=
+\begin{cases}
+0&amp; \text{x=0}\\
+1&amp; \text{x!=0}
+\end{cases}
+</code></pre>
+<h2 id="嵌入bilibili视频">嵌入BiliBili视频</h2>
+<h3 id="添加css代码">添加CSS代码</h3>
+<pre><code>.aspect-ratio {
+   position: relative;
+   width: 100%;
+   height: 0;
+   padding-bottom: 75%;
+}
+.aspect-ratio iframe {
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   left: 0;
+   top: 0;
+}
+</code></pre>
+<h3 id="嵌标签">嵌标签</h3>
+<p>把哔哩哔哩的 <code>&lt;iframe&gt;</code> 代码嵌入到 <code>&lt;div&gt;</code> 标签中</p>
+<pre><code>&lt;div class=&quot;aspect-ratio&quot;&gt;
+&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=45520296&amp;bvid=BV1Yb411q7wa&amp;cid=113466217&amp;page=1&amp;high_quality=1&quot; 
+scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot;&gt; 
+&lt;/iframe&gt;
+&lt;/div&gt;
+（记得加 &amp;high_quality=1 ）
+</code></pre>
+<hr>
+<p>To be continued.😥</p>
+
+                        </div>
+                        
+                            <div class="post-toc">
+                                <ul class="markdownIt-TOC">
+<li><a href="#gridea%E8%AF%AD%E6%B3%95%E8%A7%84%E5%88%99">Gridea语法规则</a>
+<ul>
+<li><a href="#markdown%E8%AF%AD%E6%B3%95">Markdown语法</a>
+<ul>
+<li><a href="#%E6%A0%87%E9%A2%98">标题</a></li>
+<li><a href="#%E5%AD%97%E4%BD%93">字体</a></li>
+<li><a href="#%E5%BC%95%E7%94%A8">引用</a></li>
+<li><a href="#%E5%88%86%E5%89%B2%E7%BA%BF">分割线</a></li>
+<li><a href="#%E5%9B%BE%E7%89%87">图片</a></li>
+<li><a href="#%E8%B6%85%E9%93%BE%E6%8E%A5">超链接</a></li>
+<li><a href="#%E5%88%97%E8%A1%A8">列表</a></li>
+<li><a href="#%E8%A1%A8%E6%A0%BC">表格</a></li>
+<li><a href="#%E4%BB%A3%E7%A0%81">代码</a></li>
+<li><a href="#%E6%B5%81%E7%A8%8B%E5%9B%BE">流程图</a></li>
+<li><a href="#%E5%AD%97%E4%BD%93-%E5%AD%97%E5%8F%B7%E5%92%8C%E9%A2%9C%E8%89%B2">字体、字号和颜色</a></li>
+<li><a href="#%E8%83%8C%E6%99%AF%E8%89%B2">背景色</a></li>
+<li><a href="#%E6%B3%A8%E8%84%9A">注脚</a></li>
+</ul>
+</li>
+<li><a href="#latex%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F">Latex数学公式</a>
+<ul>
+<li><a href="#%E6%95%B0%E5%AD%A6%E7%AC%A6%E5%8F%B7%E8%A1%A8">数学符号表</a></li>
+<li><a href="#%E6%8C%87%E6%95%B0%E5%92%8C%E4%B8%8B%E6%A0%87">指数和下标</a></li>
+<li><a href="#%E5%88%86%E5%BC%8F%E5%92%8C%E6%A0%B9%E5%BC%8F">分式和根式</a></li>
+<li><a href="#%E7%A7%AF%E5%88%86%E5%92%8C%E6%B1%82%E5%92%8C">积分和求和</a></li>
+<li><a href="#%E5%A4%A7%E6%8B%AC%E5%8F%B7">大括号</a></li>
+</ul>
+</li>
+<li><a href="#%E5%B5%8C%E5%85%A5bilibili%E8%A7%86%E9%A2%91">嵌入BiliBili视频</a>
+<ul>
+<li><a href="#%E6%B7%BB%E5%8A%A0css%E4%BB%A3%E7%A0%81">添加CSS代码</a></li>
+<li><a href="#%E5%B5%8C%E6%A0%87%E7%AD%BE">嵌标签</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+                            </div>
+                            
+                                
+                                    
+                                        <!--en-->
+                                        <section class="post-copyright en">
+                                            <p class="copyright-item">
+                                                <span>Author:</span>
+                                                <span>kishomoe</span>
+                                            </p>
+
+                                            <p class="copyright-item">
+                                                <span>Permalink:</span>
+                                                <span><a href="https://kishomoe.github.io/post/010-gridea/">https://kishomoe.github.io/post/010-gridea/</a></span>
+                                            </p>
+
+                                            <p class="copyright-item">
+                                                <span>License:</span>
+                                                <span>MIT License</span>
+                                            </p>
+                                        </section>
+                                        
+                                                
+                                                    
+                                                        <!-- Share-->
+                                                        <span style="margin-right:15px">
+                                                    <i class="post-share"></i>
+                                                    <span>Share:</span>
+                                                        <a title="QR Code" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://kishomoe.github.io/post/010-gridea/"><i class="fa fa-qrcode"></i></a>
+                                                        <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://kishomoe.github.io/post/010-gridea/&sharesource=qzone&title=Gridea语法规则&pics=https://kishomoe.github.io/images/avatar.png?v=1613809418579&summary="><i class="fa fa-qq"></i></a>
+                                                        <a title="Weibo" target="_blank" href="https://service.weibo.com/share/share.php?url=https://kishomoe.github.io/post/010-gridea/&sharesource=weibo&title=Gridea语法规则 + " - " + &pic="https://kishomoe.github.io/images/avatar.png?v=1613809418579 "><i class="fa fa-weibo "></i></a>
+                                                        
+                                                                </span>
+                                                                <!--en-->
+                                                                <section class="post-tags en ">
+                                                                    <div>
+                                                                        <span>Tag(s):</span>
+                                                                        <span class="tag ">
+                        
+                                                            </span>
+                                                                    </div>
+                                                                    <div>
+                                                                        <a href="javascript:window.history.back();">back</a>
+                                                                        <span>&dot;</span>
+                                                                        <a href="#">home</a>
+                                                                    </div>
+                                                                </section>
+                                                                
+                                                                                <!---->
+                                                                                <section class="post-nav">
+                                                                                    
+                                                                                        <a class="prev" rel="prev" href="https://kishomoe.github.io/post/011-being_mortal/">
+                                                                                            Being Mortal（最好的告别）
+                                                                                        </a>
+                                                                                        
+                                                                                            
+                                                                                                <a class="next" rel="next" href="https://kishomoe.github.io/post/009-fourier/">
+                                                                                                    傅里叶分析
+                                                                                                </a>
+                                                                                                
+                                                                                </section>
+                    </article>
+                </div>
+                
+                    
+                        <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container" style="width: 100%;max-width: 780px;margin: auto;"></div>
+
+<script>
+    var gitalk = new Gitalk({
+        clientID: '3149554b1380ed05d56a',
+        clientSecret: 'd2159ba5f80f57a6ff361d35501fb9edf571691c',
+        repo: 'kishomoe.github.io',
+        owner: 'kishomoe',
+        admin: ['kishomoe'],
+        id: (location.pathname).substring(0, 49), // Ensure uniqueness and length less than 50
+        distractionFreeMode: false // Facebook-like distraction free mode
+    })
+
+    gitalk.render('gitalk-container')
+</script>
+                            
+                                        
+                                            
+            </div>
+    </div>
+    </div>
+    </div>
+    
+    <div id="player"></div>
+    
+        <footer id="footer" class="footer">
+            <div class="copyright">
+                
+                        <b>Truth Forever.</b>
+<br>
+It has been running for <script type="text/javascript">
+      var urodz = new Date("03/16/2020");
+      var now = new Date();
+      var ile = now.getTime() - urodz.getTime();
+      var dni = Math.floor(ile / (1000 * 60 * 60 * 24));
+      document.write(+dni)
+</script> days.💖
+<br>
+                            
+                                        <svg viewBox="0 0 1024 1024" style="margin-left: 5px;margin-right: 5px;" version="1.0" width="8" height="8" class="my-face">
+            <path
+                d="M863.597631 513.574282l-271.33965-140.213484L729.783667 81.926656c3.583731-7.87141 7.167462-15.742819 7.167462-25.214109C736.887134 25.226908 708.345275 0.012799 672.635953 0.012799a63.611229 63.611229 0 0 0-39.293053 12.607055c-1.791866 1.59988-3.519736 3.19976-5.311602 3.19976L147.87531 418.925381a55.547834 55.547834 0 0 0-19.646527 47.356448c1.791866 17.278704 14.27093 33.021523 32.125591 42.492813l271.33965 141.749369L292.504463 945.221908c-12.479064 25.214109-1.791866 53.563983 23.166262 69.306802 10.751194 6.335525 23.230258 9.47129 35.709322 9.47129 16.062795 0 32.125591-4.735645 44.604655-15.742819l480.091993-403.297753a55.547834 55.547834 0 0 0 19.646526-47.228458 61.243407 61.243407 0 0 0-32.12559-44.156688z"
+                fill="#93b5cf"></path>
+        </svg>
+                                        kishomoe &copy;Copyright
+                                            <script>
+                                                var date = new Date();
+                                                document.write("" + date.getFullYear());
+                                            </script>
+                                            | Powered by
+                                            <a href="https://gridea.dev/" target="_blank">
+                                                Gridea
+                                            </a>
+            </div>
+            <div id="update" style="display:none;">
+                on
+            </div>
+            
+                <div id="version" style="display:none;">
+                    1.7.6
+                </div>
+                
+                    <script>
+                        var port = '';
+                        
+                        document.write('<div id="home_path" style="display:none;">' + document.location.protocol + '//' + window.document.location.hostname + port + '</div>')
+                    </script>
+        </footer>
+        
+            <script src='https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js'></script>
+            
+                <script>
+                    
+
+                    function LoadPlayer() {
+                        var musicList = [];
+                        
+                        musicList.push({
+                            name: 'MELANCHOLY ',
+                            url: 'http://music.163.com/song/media/outer/url?id=1297742167.mp3',
+                            artist: 'White Cherry',
+                            cover: 'https://cdn.jsdelivr.net/gh/kishomoe/blogpic@master/picgo/MELANCHOLY.png',
+                        });
+                        
+                        console.log(" MusicList: " + musicList);
+                        
+                        const ap = new APlayer({
+                            container: document.getElementById('player'),
+                            fixed: true,
+                            audio: musicList
+                        });
+                        
+                    }
+                    LoadPlayer();
+                    
+                    
+                    loadlive2d();
+                    
+                    
+                    getStar();
+                    hljs.initHighlighting();
+                    console.clear();
+                    
+                    CheckVersion();
+                    
+                    var newDate = new Date();
+                    newDate.setTime(1613809418579);
+                    console.log(" Blog Update Time: " + newDate.toLocaleDateString());
+                    console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
+                </script>
+        </div>
+</body>
+<script>
+    scroll();
+</script>
+
+</html>
